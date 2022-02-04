@@ -1,7 +1,8 @@
-body {
+html,body {
     background-color: #225560;
     font-family: 'Inter', sans-serif;
     color: #fff;
+    
 }
 
 section {
@@ -11,7 +12,8 @@ section {
 }
 
 .header {
-    background-color: #011627;
+  max-width: 100%;
+  background-color: #011627;
 }
 
 .navbar .navbar-brand {
@@ -68,8 +70,6 @@ nav .navbar-nav li a{
 .project {
     font-family: 'Inter', sans-serif;
     margin-bottom: 50px;
-    display: inline-block;
-    margin: auto;
 }
 
 .project h3 {
@@ -91,6 +91,7 @@ nav .navbar-nav li a{
 
 
 .skills {
+    max-width: 100%;
     padding-top: 20px;
     background-color: #011627;
 }
